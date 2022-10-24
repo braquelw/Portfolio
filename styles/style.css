@@ -130,14 +130,25 @@ footer p {
 @media screen and (max-width: 900px) {
     .homecontent {
         display: block;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
         height: auto;
     }
     nav, .footernav {
         flex-direction: column;
     }
+    body {
+        width: 100%;
+    }
     footer {
         margin-top: 10px;
         display: block;
         margin: 0;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
     }
 }
