@@ -7,6 +7,8 @@ body {
   }
   h1 {
     color: #030328;
+    font-family: 'Dancing Script';
+    font-size: 3em;
     }
   nav {
     background-color:#fec492;
@@ -20,12 +22,14 @@ body {
   a {
     color:antiquewhite;
     margin: 0px;
-    font-size: 1em;
+    font-size: x-large;
+    font-family: 'Darker Grotesque';
+    font-weight: 550;
     padding: 10px;
     text-decoration: none;
   }
   a:hover {
-    background-color:#fec492;
+    background-color:peachpuff;
     color:#333362;
     padding: 10px;
   }
