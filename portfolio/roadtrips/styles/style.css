@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Julius+Sans+One&family=Pompiere&display=swap" rel="stylesheet"');
+
+:root {
+    --primary-color: #283618   ;
+    --secondary-color: #DDA15E ;
+    --accent1-color: #FEFAE0;
+    --accent2-color: #606C38;
+    --accent3-color: #EECE9F;
+    --accent4-color: #445128;
+    --accent5-color: #BC6C25;
+  
+    --heading-font: 'Pompiere';
+    --subheading-font: 'Julius Sans One';
+    --paragraph-font: Dosis, Helvetica, sans-serif;
+}
+
+div{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgba(254, 250, 224, .5);
+    font-family: Dosis;
+    display: grid;
+    grid-template-columns: 200px auto;
+    margin: 0%;
+}
+.logo{
+    width: 100%;
+    margin: 0;
+}
+#logo_link {
+    justify-self: center;
+    align-self: center;
+}
+nav {
+    line-height: 3.5em;
+    text-align: center;
+    font-size: 1em;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    color:#283618;
+    font-family: Dosis;
+}
+nav a:link, nav a:visited {
+    color: #283618;
+}
+nav a:hover {
+    color: #BC6C25;
+    background-color: #EECE9F;
+}
+body{
+    background-color: #BC6C25;
+    font-family: Dosis;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}

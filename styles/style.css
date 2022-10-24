@@ -91,6 +91,20 @@ p {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.footernav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+.email {
+    grid-column: 1;
+}
+.town {
+    grid-column: 2;
+}
+.website {
+    grid-column: 3;
+}
 footer {
     font-family: 'Dancing Script';
     font-weight: 10;
@@ -99,8 +113,18 @@ footer {
     text-align: center;
     background-color: peachpuff;
     padding: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: -50px;
+}
+footer p {
+    font-family: 'Darker Grotesque';
+    font-size:medium;
+    color:#030328;
+    background-color: peachpuff;
+    text-align: right;
+    text-justify: center;
+    padding-bottom: 10px;
+    margin-top: -20px;
+    margin-bottom: -20px;
 }
 
 @media screen and (max-width: 900px) {
