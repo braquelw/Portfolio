@@ -132,7 +132,7 @@ footer p {
         display: block;
         height: auto;
     }
-    nav, footer {
+    nav, .footernav {
         flex-direction: column;
     }
     footer {
