@@ -84,6 +84,7 @@ p {
     font-size:larger;
     font-weight: 550;
     font-family: 'Darker Grotesque';
+    color:#030328;
     background-color: antiquewhite;
     padding: 10px;
     margin-bottom: 10px;
@@ -91,8 +92,9 @@ p {
 }
 footer {
     font-family: 'Dancing Script';
-    font-weight: 50;
+    font-weight: 10;
     font-size: large;
+    color:#030328;
     text-align: center;
     background-color: peachpuff;
     margin: 0;
