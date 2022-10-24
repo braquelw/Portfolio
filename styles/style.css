@@ -62,6 +62,7 @@ h1 {
 h3 {
     font-size: x-large;
     font-family: 'Dancing Script';
+    padding: 10px;
 }
 a {
     text-decoration: none;
@@ -97,7 +98,7 @@ footer {
     color:#030328;
     text-align: center;
     background-color: peachpuff;
-    margin: 0;
+    margin: 10px;
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
