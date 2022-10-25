@@ -96,15 +96,15 @@ p {
     grid-template-columns: 250px 150px 250px;
     justify-content: center;
 }
-.email {
-    grid-column: 1;
-}
-.town {
-    grid-column: 2;
-}
-.website {
-    grid-column: 3;
-}
+    .email {
+        grid-column: 1;
+    }
+    .town {
+        grid-column: 2;
+    }
+    .website {
+        grid-column: 3;
+    }
 footer {
     font-family: 'Dancing Script';
     font-weight: 10;
@@ -125,7 +125,7 @@ footer p {
     margin-bottom: -20px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     .homecontent {
         display: block;
         align-items: center;
@@ -134,14 +134,16 @@ footer p {
         justify-items: center;
         height: auto;
     }
-    nav, .footernav {
-        flex-direction: column;
+    .footernav {
+        display:block;
+        margin: 0;
+        justify-content: center;
+        padding: 0;
     }
     body {
         width: 100%;
     }
     footer {
-        margin-top: 10px;
         display: block;
         margin: 0;
         align-items: center;
