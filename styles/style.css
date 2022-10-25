@@ -150,6 +150,7 @@ footer p {
     footer {
         display: block;
         margin: 0;
+        width: 100%;
         align-items: center;
         align-content: center;
         justify-content: center;
