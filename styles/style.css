@@ -4,6 +4,13 @@ div {
     max-width: 1600px;
     margin: 0;
 }
+.bw_logo img {
+    width: 150px;
+    margin-right: 5px;
+}
+.bw_logo a {
+    background-color: antiquewhite;
+}
 .homecontent {
     display: grid;
     grid-template-columns: .5fr .5fr 1.5fr 1fr 2fr 2fr 1fr;
@@ -14,10 +21,19 @@ div {
         width: 350px;
         grid-column: 1/4;
         grid-row: 1/9;
+        margin-top: -150px;
+    }
+    .bw_logo {
+        grid-column: 5/8;
+        grid-row: 1;
+        display: flex;
+        justify-content: right;
+        align-items: right;
     }
     .imageofme {
         grid-column: 3/5;
         grid-row: 2/8;
+        margin-top: -50px;
     }
     .nameandtitle {
         grid-column: 5;
@@ -36,12 +52,11 @@ div {
         grid-column: 4/7;
         grid-row: 8;
     }
-img {
+.imageofme img {
     max-width: 300px;
     height: auto;
     border-style: groove;
     border-color: #030328;
-    margin-top: 30px;
 }
 nav {
     display: grid;
@@ -71,7 +86,7 @@ a {
     color: orangered;
     background-color: peachpuff;
 }
-a:hover {
+nav a:hover {
     color: white;
     background-color: orangered;
 }
@@ -125,6 +140,10 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
+    .bw_logo {
+        display: block;
+        margin: 5px;
+    }
     .homecontent {
         display: block;
         align-items: center;
@@ -132,6 +151,7 @@ footer p {
         justify-content: center;
         justify-items: center;
         height: auto;
+        margin-top: 150px;
     }
     nav {
         display: grid;
