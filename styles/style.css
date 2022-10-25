@@ -11,6 +11,9 @@ div {
 .bw_logo a {
     background-color: antiquewhite;
 }
+.bw_logo img:hover {
+    opacity: .7;
+}
 .homecontent {
     display: grid;
     grid-template-columns: .5fr .5fr 1.5fr 1fr 2fr 2fr 1fr;
@@ -102,12 +105,12 @@ p {
     color:#030328;
     background-color: antiquewhite;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-top: 10px;
 }
 .footernav {
     display: grid;
-    grid-template-columns: 250px 150px 250px;
+    grid-template-columns: 250px 250px 250px;
     justify-content: center;
 }
     .email {
