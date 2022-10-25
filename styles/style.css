@@ -140,7 +140,7 @@ footer p {
     }
     .footernav {
         display:block;
-        margin: 0;
+        margin: -20px;
         justify-content: center;
         padding: 0;
     }
