@@ -6,12 +6,12 @@ div {
 }
 .homecontent {
     display: grid;
-    grid-template-columns: .5fr .5fr 1.5fr 1fr 2fr 2fr .5fr;
+    grid-template-columns: .5fr .5fr 1.5fr 1fr 2fr 2fr 1fr;
 }
     .block1 {
         background-color: #030328;
         height: auto;
-        width: 450px;
+        width: 350px;
         grid-column: 1/4;
         grid-row: 1/9;
     }
@@ -37,12 +37,12 @@ div {
         grid-row: 8;
     }
 img {
-    max-width: 350px;
+    max-width: 300px;
     height: auto;
     border-style: groove;
     border-color: #030328;
     margin: 10px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 nav {
     display: grid;
