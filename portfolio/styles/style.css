@@ -13,7 +13,7 @@ body {
   nav {
     background-color:#fec492;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     align-content: center;
     justify-items: center;
