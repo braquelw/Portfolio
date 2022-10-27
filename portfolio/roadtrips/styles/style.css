@@ -227,16 +227,16 @@ footer {
     .middleblock {
         margin-top: 30px;
         margin-bottom: 30px;
-        padding-right: 0;
+        padding-right: 10px;
         padding-left: 0;
     }
     .picofme {
-        width: 175px;
+        width: 150px;
     }
     .picdecor {
-        width: 185px;
-        height: 185px;
-        margin-top: -15px;
+        width: 160px;
+        height: 160px;
+        margin-top: -10px;
     }
     .offerblock {
         padding: 20px;
