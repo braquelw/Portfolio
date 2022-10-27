@@ -131,22 +131,20 @@ body{
 }
 .journeys a {
     text-decoration: none;
-    color:#EECE9F;
+    color:#FEFAE0;
     font-family: "Julius Sans One";
     font-size: 30px;
 }
 .journeys a:hover {
-    color: #FEFAE0;
     font-size: xx-large;
 }
 .trip_tips a {
     text-decoration: none;
-    color:#EECE9F;
+    color:#FEFAE0;
     font-family: "Julius Sans One";
     font-size: 30px;
 }
 .trip_tips a:hover {
-    color: #FEFAE0;
     font-size: xx-large;
 }
 h4 {
@@ -196,22 +194,20 @@ footer {
 @media screen and (max-width: 750px) {
     .logo {
         display: block;
-        padding-top: 58px;
-        padding-bottom: 58px;
-        margin-left: 0px;
+        padding-top: 28px;
+        padding-bottom: 28px;
     }
     nav, footer {
         flex-direction: column;
     }
     nav {
         line-height: 20px;
-        font-size: .5em;
-        margin-right: 0;
+        font-size: 1em;
     }
     nav a {
-        min-width: 50px;
+        min-width: 100px;
         display: block;
-        padding: 10px;
+        padding: 15px;
     }
     nav a:hover {
         color: #FEFAE0;
