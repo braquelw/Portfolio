@@ -161,11 +161,6 @@ body {
     background-color: #ccc;
     line-height: 3em;
     }
-    .sm-contactus {
-    grid-area: contactus;
-    background-color: #ccc;
-    line-height: 3em;
-    }
     .top {
     grid-area: top;
     border-left: 1px solid;

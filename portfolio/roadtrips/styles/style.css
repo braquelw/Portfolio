@@ -18,49 +18,257 @@ div{
     max-width: 1600px;
     margin: 0 auto;
 }
-header{
-    background-color: rgba(254, 250, 224, .5);
-    font-family: Dosis;
+header {
+    background-color:#606C38;
     display: grid;
-    grid-template-columns: 200px auto;
-    margin: 0%;
-}
-.logo{
-    width: 100%;
+    grid-template-columns: 250px auto;
     margin: 0;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.logo {
+    width: 100%;
+    background-color: #DDA15E;
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 10px;
+    margin-top: -20px;
+    margin-bottom: -20px;
 }
 #logo_link {
     justify-self: center;
     align-self: center;
 }
 nav {
-    line-height: 3.5em;
+    line-height: 40px;
     text-align: center;
     font-size: 1em;
-    list-style-type: none;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-self: right;
+    grid-column: 2;
+    margin-right: 50px;
 }
 nav a {
-    padding:1em;
-    min-width: 120px;
+    min-width: 150px;
     text-decoration: none;
     padding: 10px;
-    color:#283618;
     font-family: Dosis;
+    color:#FEFAE0;
 }
 nav a:link, nav a:visited {
-    color: #283618;
+    color: #FEFAE0;
 }
 nav a:hover {
-    color: #BC6C25;
-    background-color: #EECE9F;
+    color: #FEFAE0;
+    background-color:#445128;
+    font-size: x-large;
 }
 body{
-    background-color: #BC6C25;
+    background-color: #FEFAE0;
     font-family: Dosis;
     font-size: 22px;
     margin: 0;
     padding: 0;
+}
+.quote1 {
+    width: 100%;
+    margin: 0;
+}
+.quote1_mobile {
+    display: none;
+}
+.middleblock {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: .05fr .5fr 2fr;
+    align-items: center;
+    padding: 20px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.picdecor {
+    display: block;
+    background-color: #606C38;
+    border-radius: 200px;
+    width: 265px;
+    height: 265px;
+    margin-top: -25px;
+    grid-column: 2/4;
+    grid-row: 1;
+}
+.picofme {
+    width: 250px;
+    border-radius: 200px;
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: left;
+}
+.intro {
+    grid-column: 4;
+    grid-row: 1;
+    justify-self: left;
+    align-content: center;
+    padding-left: 20px;
+}
+.offerblock {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color: #DDA15E;
+    margin: 50px;
+}
+.journeys {
+    background-color: #606C38;
+    padding: 15px;
+    margin: 15px;
+}
+.trip_tips {
+    background-color: #606C38;
+    padding: 15px;
+    margin: 15px;
+}
+.journeys a {
+    text-decoration: none;
+    color:#EECE9F;
+    font-family: "Julius Sans One";
+    font-size: 30px;
+}
+.journeys a:hover {
+    color: #FEFAE0;
+    font-size: xx-large;
+}
+.trip_tips a {
+    text-decoration: none;
+    color:#EECE9F;
+    font-family: "Julius Sans One";
+    font-size: 30px;
+}
+.trip_tips a:hover {
+    color: #FEFAE0;
+    font-size: xx-large;
+}
+h4 {
+    font-family: Pompiere;
+    font-size: 48px;
+    margin: 0;
+    color:#BC6C25;
+}
+p {
+    font-family: dosis;
+    font-size: 24px;
+    margin: 0;
+    color:#283618;
+}
+.quote2 {
+    width: 100%;
+    margin: 0;
+}
+.quote2_mobile {
+    display: none;
+}
+footer {
+    background-color: #606C38;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: dosis;
+    font-size: 20px;
+    color:#FEFAE0;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .middleblock {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .offerblock {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    .logo {
+        display: block;
+        padding-top: 58px;
+        padding-bottom: 58px;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .quote1 {
+        display: none;
+    }
+    .quote1_mobile {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .middleblock {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .picofme {
+        width: 175px;
+    }
+    .picdecor {
+        width: 185px;
+        height: 185px;
+        margin-top: -15px;
+    }
+    .offerblock {
+        padding: 20px;
+        margin: 30px;
+    }
+    .journeys {
+        padding: 10px;
+        margin: 7px;
+    }
+    .trip_tips {
+        padding: 10px;
+        margin: 7px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    .journeys a {
+        font-size: 20px;
+    }
+    .journeys a:hover {
+        font-size: 22px;
+    }
+    .trip_tips a {
+        font-size: 20px;
+    }
+    .trip_tips a:hover {
+        font-size: 22px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .quote2 {
+        display: none;
+    }
+    .quote2_mobile {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
 }
