@@ -113,7 +113,7 @@ body{
 }
 .offerblock {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1.5fr;
     align-items: center;
     text-align: center;
     padding: 50px;
@@ -132,23 +132,23 @@ body{
 }
 .journeys a {
     text-decoration: none;
-    color:#EECE9F;
+    color:#FEFAE0;
     font-family: "Julius Sans One";
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 35px;
 }
 .journeys a:hover {
-    color: #FEFAE0;
-    font-size: xx-large;
+    font-size: 28px;
 }
 .trip_tips a {
     text-decoration: none;
-    color:#EECE9F;
+    color:#FEFAE0;
     font-family: "Julius Sans One";
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 35px;
 }
 .trip_tips a:hover {
-    color: #FEFAE0;
-    font-size: xx-large;
+    font-size: 28px;
 }
 h4 {
     font-family: Pompiere;
@@ -195,21 +195,26 @@ footer {
 }
 
 @media screen and (max-width: 750px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
-    }
     .logo {
         display: block;
-        padding-top: 58px;
-        padding-bottom: 58px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     nav, footer {
         flex-direction: column;
     }
+    nav {
+        line-height: 25px;
+        font-size: 18px;
+        margin-right: 10px;
+    }
     nav a {
         display: block;
-        padding: 15px;
+        padding: 10px;
+        min-width: 100px;
+    }
+    nav a:hover {
+        font-size: 20px;
     }
     .quote1 {
         display: none;
