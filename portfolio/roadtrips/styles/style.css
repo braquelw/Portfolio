@@ -30,7 +30,6 @@ header {
     width: 100%;
     background-color: #DDA15E;
     grid-column: 1;
-    grid-row: 2;
     margin-left: 10px;
     margin-top: -20px;
     margin-bottom: -20px;
@@ -195,21 +194,29 @@ footer {
 }
 
 @media screen and (max-width: 750px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
-    }
     .logo {
         display: block;
         padding-top: 58px;
         padding-bottom: 58px;
+        margin-left: 0px;
     }
     nav, footer {
         flex-direction: column;
     }
+    nav {
+        line-height: 20px;
+        font-size: .5em;
+        margin-right: 0;
+    }
     nav a {
+        min-width: 50px;
         display: block;
-        padding: 15px;
+        padding: 10px;
+    }
+    nav a:hover {
+        color: #FEFAE0;
+        background-color:#445128;
+        font-size: largr;
     }
     .quote1 {
         display: none;
