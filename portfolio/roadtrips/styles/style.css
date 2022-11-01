@@ -59,7 +59,6 @@ nav a:link, nav a:visited {
     color: #FEFAE0;
 }
 nav a:hover {
-    color: #FEFAE0;
     background-color:#445128;
     font-size: x-large;
 }
@@ -170,6 +169,7 @@ p {
     display: none;
 }
 footer {
+    line-height: 40px;
     background-color: #606C38;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -188,14 +188,16 @@ footer p {
     font-size: 1em;
 }
 footer a {
+    min-width: 150px;
     padding: 20px;
     text-decoration: none;
     font-family: Dosis;
     color:#FEFAE0;
     font-size: 1em;
 }
-footer a: hover {
-    
+footer a:hover {
+    max-width: 150px;
+    font-size: 1.1em;
 }
 
 
