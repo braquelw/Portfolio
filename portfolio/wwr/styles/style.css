@@ -336,7 +336,18 @@ footer .social img {
     }
     .mountains, .msg {
         display: block;
-        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    .msg {
+        width: 80%;
+    }
+    .msg h2 {
+        font-size: 1.2em;
+    }
+    .msg p {
+        font-size: 20px;
+        padding-bottom: 15px;
     }
     footer {
         margin-top: 25px;
