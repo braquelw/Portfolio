@@ -177,8 +177,25 @@ footer {
     font-family: dosis;
     font-size: 20px;
     color:#FEFAE0;
-    align-items: center;
+    display: flex;
+    justify-content: center;
     text-align: center;
+}
+footer p {
+    padding: 20px;
+    font-family: Dosis;
+    color:#283618;
+    font-size: 1em;
+}
+footer a {
+    padding: 20px;
+    text-decoration: none;
+    font-family: Dosis;
+    color:#FEFAE0;
+    font-size: 1em;
+}
+footer a: hover {
+    
 }
 
 
