@@ -348,8 +348,18 @@ footer .social img {
     }
     .river-sections {
         display: block;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 20px;
+        padding-bottom: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .river-sections p {
+        padding-bottom: 50px;
     }
     .history {
         display: block;
+        margin-bottom: 10px;
     }
 }
