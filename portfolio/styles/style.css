@@ -56,3 +56,18 @@ body {
     text-align: left;
     padding-left: 50px;
   }
+
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 2em;
+      margin: 20px;
+    }
+    nav {
+      grid-template-columns: 1fr;
+      width: 100%;
+    }
+    nav a:hover {
+      width: 100%;
+    }
+}
