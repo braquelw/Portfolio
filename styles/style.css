@@ -173,9 +173,12 @@ footer p {
         display: grid;
         grid-template-columns: 120px 120px 120px;
     }
+    p {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
     .footernav {
         display:block;
-        margin: -20px;
         justify-content: center;
         padding: 0;
     }
@@ -185,6 +188,5 @@ footer p {
     footer {
         display: block;
         margin: 0;
-        width: 100%;
     }
 }
