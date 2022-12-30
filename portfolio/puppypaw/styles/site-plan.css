@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Gamja+Flower&family=Patrick+Hand+SC&display=swap');
+
+:root {
+    --primary-color: #219EBC;
+    --secondary-color: #FEC453;
+    --accent1-color: #5EB9D4;
+    --accent2-color: #FFD770;
+    --accent3-color: #1A839F;
+    --accent4-color: #FDB035;
+    --accent5-color: #7CC5DF;
+    --accent6-color: #FB940E;
+    --accent7-color: #126782;
+    --accent8-color: #023047;
+
+    --heading-font: 'Patrick Hand SC';
+    --subheading-font: 'Gamja Flower';
+    --paragraph-font: 'Barlow', Helvetica, sans-serif;
+
+    --headline-color-on-white: #219EBC;  /* headlines on a white background */ 
+    --headline-color-on-color: #126782; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #126782; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #1A839F; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #FFD770;
+    --nav-link-color: #7CC5DF;
+    --nav-background-color: white;
+    --nav-hover-link-color: #FB940E;
+    --nav-hover-background-color: white;
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+  }
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 300px;
+    }
+    h1, h2 {
+        font-family: var(--heading-font);
+        color: var(--headline-color-on-white);
+    }
+    h3, h4, h5, h6 {
+        font-family: var(--subheading-font);
+    }
+    h1 {
+        font-weight: normal;
+    }
+    h2 {
+        text-align: center;
+    }
+    hr {
+        height: 3px;
+        margin: 35px 0;
+        background: var(--accent1-color);
+    }
+    header {
+        padding: 1em;
+        text-align: center;
+        color: var(--paragraph-color-on-color);
+        background-color: var(--paragraph-background-color);
+    }
+    header > h1, header > h2 {
+        color: var(--headline-color-on-color);
+    }
+    p {
+        font-family: var(--paragraph-font);
+        color: var(--paragraph-color-on-white);
+        padding: 1em;
+    }
+    .colors {
+        width: 100%;
+        min-width: 350px;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .colors th {
+        background-color: #999;
+    }
+    .colors td{
+        width: 10%;
+        height: 3em;
+    }
+    .primary {
+        background-color: var(--primary-color);
+    }
+    .secondary {
+        background-color: var(--secondary-color);
+    }
+    .accent1 {
+        background-color: var(--accent1-color);
+    }
+    .accent2{
+        background-color: var(--accent2-color);
+    }
+    .accent3{
+        background-color: var(--accent3-color);
+    }
+    .accent4{
+        background-color: var(--accent4-color);
+    }
+    .accent5{
+        background-color: var(--accent5-color);
+    }
+    .accent6{
+        background-color: var(--accent6-color);
+    }
+    .accent7{
+        background-color: var(--accent7-color);
+    }
+    .accent8{
+        background-color: var(--accent8-color);
+    }
+    p.colored {
+        background-color: var(--paragraph-background-color);
+        color: var(--paragraph-color-on-color);
+    }
+    nav {
+        background-color: var(--nav-background-color);
+        line-height: 3em;
+        text-align: center;
+        font-size: 1.2em;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    }
+    nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+    }
+    nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+    }
+    .sitemap {
+    display: grid;
+    justify-content: center;
+    
+    grid-template-columns: repeat(6, 15%);
+    grid-template-rows: 3em 1.5em 1.5em 3em;
+    grid-template-areas: ". . home home . ."
+        ". . . top . ."
+        ". left left right right ."
+        "page2 page2 . . page3 page3";
+    }
+    .sitemap > div {
+    text-align: center;
+    }
+    .sm-home {
+    grid-area: home;
+    background-color: #ccc;
+    line-height: 3em;
+    }
+    .sm-page2 {
+    grid-area: page2;
+    background-color: #ccc;
+    line-height: 3em;
+    }
+    .sm-page3 {
+    grid-area: page3;
+    background-color: #ccc;
+    line-height: 3em;
+    }
+    .top {
+    grid-area: top;
+    border-left: 1px solid;
+    }
+    .left {
+    grid-area: left;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    }
+    .right {
+    grid-area: right;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    }
