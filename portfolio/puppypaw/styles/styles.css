@@ -110,25 +110,37 @@ body{
     margin: 0;
     padding: 0;
 }
-.welcome {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin: auto;
+.welcome img {
+    width: 100%;
 }
-.welcome h1 {
-    font-family: 'Patrick Hand SC';
-    color:#126782;
-    font-size: 75px;
+.imgcollage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.welcome h3 {
-    font-family: 'Gamja Flower';
-    color:#1A839F;
-    font-size: 35px;
-    margin-top: -50px;
+.imgcollage img {
+    max-width: 100%;
+    justify-self: center;
+}
+.aggie {
+    grid-column: 1;
+    grid-row: 1;
+}
+.bellatrix {
+    grid-column: 2;
+    grid-row: 1;
+}
+.kona {
+    grid-column: 3;
+    grid-row: 1;
+}
+.piper {
+    grid-column: 4;
+    grid-row: 1;
 }
 .aboutmeblock {
-    margin-top: 70px;
+    margin-top: -20px;
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: .05fr .5fr 2fr;
@@ -177,7 +189,6 @@ footer {
     line-height: 30px;
     background-color: #FFD770;
     margin-top: 20px;
-    margin-bottom: 20px;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -209,13 +220,6 @@ footer a:hover {
 
 
 @media screen and (max-width: 1200px) {
-    .welcome h1 {
-        font-size: 55px;
-    }
-    .welcome h3 {
-        font-size: 30px;
-        margin-top: -45px;
-    }
     .aboutmeblock {
         padding-right: 40px;
         padding-left: 40px;
@@ -288,15 +292,7 @@ footer a:hover {
     font-size: 17px;
     min-width: 75px;
     }
-    .welcome h1 {
-        font-size: 32px;
-    }
-    .welcome h3 {
-        font-size: 18px;
-        margin-top: -28px;
-    }
     .aboutmeblock {
-        margin-top: 30px;
         margin-bottom: 30px;
         padding-right: 20px;
         padding-left: 0;
