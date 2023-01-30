@@ -186,10 +186,10 @@ p {
     color:#023047;
 }
 footer {
-    line-height: 30px;
+    line-height: 20px;
     background-color: #FFD770;
     margin-top: 20px;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -213,6 +213,22 @@ footer a:hover {
     max-width: 150px;
     font-size: 1.1em;
     text-align: center;
+}
+
+/* Training Page */
+.video {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    max-width: 80%;
+}
+
+/* Newsletters */
+.news {
+    display: block;
+    width: 80%;
+    max-width: 750px;
+    margin: auto;
 }
 
 
