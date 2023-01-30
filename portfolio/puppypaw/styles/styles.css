@@ -52,12 +52,11 @@ nav a {
     font-family: 'Gamja Flower';
     color:#1A839F;
 }
-nav a:link, nav a:visited {
-    color: #1A839F;
-}
 nav a:hover {
     background-color:#FEC453;
-    font-size: 24px;
+}
+#active {
+    color:#219EBC;
 }
 .dropdown {
     overflow: hidden;
@@ -229,6 +228,7 @@ footer a:hover {
     width: 80%;
     max-width: 750px;
     margin: auto;
+    padding: 20px;
 }
 
 
