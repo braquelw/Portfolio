@@ -171,6 +171,10 @@ footer a:hover {
 }
 
 /* Training Page */
+.training {
+    display: flex;
+    flex-wrap: wrap;
+}
 .video {
     display: block;
     margin: auto;
@@ -178,7 +182,7 @@ footer a:hover {
 }
 h5 {
     font-family: 'Gamja Flower';
-    font-size: 36px;
+    font-size: 32px;
     margin: 0;
     color:#FDB035;
 }
