@@ -1,0 +1,83 @@
+* {
+    text-align: center;
+    font-family: nunito, 'Times New Roman', sans-serif;
+    margin: 20px;
+}
+header {
+    padding: 20px;
+}
+#logo {
+    max-width: 350px;
+}
+header h1 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+    color: #D75341;
+    font-size: 40px;
+}
+header h2 {
+    color:#FEC933;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3 {
+    font-family: laila, 'Segoe UI', Tahoma;
+}
+h4, h5, h6 {
+    font-family: rubik, Geneva, Times;
+}
+h3 {
+    font-size: 22px;
+}
+#primaryNav {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+#primaryNav li a {
+    display: inline-block;
+    width: 25%;
+    font-weight: 600;
+    padding: .8rem 2vw;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #F68928;
+    background-color: #f2f5d4;
+}
+hr {
+    border: 1px solid #BDC853;
+    margin: 40px auto;
+}
+.color-palette {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+table td {
+    height: 40px;
+}
+.color1 {
+    background-color: #FEC933;
+}
+.color2 {
+    background-color: #D75341;
+}
+.color3 {
+    background-color: #BDC853;
+}
+.color4 {
+    background-color: #FDE84D;
+}
+.color5 {
+    background-color: #F68928;
+}
+
+.wireframes img {
+    width: fit-content;
+    max-height: 500px;
+}

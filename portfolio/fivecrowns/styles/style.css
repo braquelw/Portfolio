@@ -1,0 +1,62 @@
+* {
+    text-align: center;
+    font-size: 16px;
+    font-family: Times, 'Times New Roman', serif;
+    color: rgb(93, 6, 137);
+}
+header h1 {
+    font-size: 2em;
+    font-family: Cochin, Georgia, serif;
+    margin: 0 auto;
+}
+header h2 {
+    font-size: 1.5em;
+    font-family: Cambria, Georgia, serif;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+.div {
+    padding: 10px;
+    background-color: rgb(235, 208, 248);
+}
+button {
+    margin: 5px 3px;
+    background-color: rgb(154, 72, 195);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+button:hover {
+    background-color: rgb(188, 118, 224);
+}
+#name {
+    width: 150px;
+}
+#add-name {
+    margin-left: 7px;
+}
+table {
+    margin: 0 auto;
+    padding: 20px 0 35px 0;
+}
+table .input-value {
+    min-width: 36px;
+}
+th {
+    color: rgb(178, 95, 219);
+}
+input {
+    width: 25px;
+    border: 1px solid rgb(93, 6, 137);
+    padding: 5px;
+    color: rgb(126, 46, 165);
+}
+table .total-value, .name-value {
+    min-width: 40px;
+    font-family: Cambria, Cochin, serif;
+    font-size: 1.05em;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 10px;
+}

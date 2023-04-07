@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taskProject</title>
+    <link rel="Stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Five Crowns</h1>
+        <h2>Scorecard</h2>
+    </header>
+    <main>
+        <div class="div">
+            <input id="name" maxlength="10" placeholder="Name"><button id="add-name" onclick="addPerson()">Add Player</button>
+            <br>
+            <button id="reset" type="reset" onclick="resetScores()">Reset Scores</button>
+            <button id="clear" onclick="clearTable()">Clear All</button>
+        </div>
+        
+        <table id="table">
+            <thead id="thead">
+                <tr>
+                    <th></th>
+                    <th colspan="13">Round</th>
+                </tr>
+                <tr>
+                    <th class="name-value">Name</th>
+                    <th class="input-value">3</th>
+                    <th class="input-value">4</th>
+                    <th class="input-value">5</th>
+                    <th class="input-value">6</th>
+                    <th class="input-value">7</th>
+                    <th class="input-value">8</th>
+                    <th class="input-value">9</th>
+                    <th class="input-value">10</th>
+                    <th class="input-value">J</th>
+                    <th class="input-value">Q</th>
+                    <th class="input-value">K</th>
+                    <th class="total-value">Total</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <div class="div">
+            &copy Braquel Woodland | CSE 121B Project
+        </div>
+    </footer>
+    <script src="scripts/taskProject.js"></script>    
+</body>
+</html>

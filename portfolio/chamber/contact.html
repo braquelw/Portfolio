@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyrum City Chamber of Commerce Home Page</title>
+    <meta name="author" content="Braquel Woodland">
+    <meta name="description" content="Home page will contain some attention grabbing information along with community information, weather, calls to action, and business spotlights.">
+    <link type="text/css" rel="stylesheet" href="styles/normalize.css">
+    <link type="text/css" rel="stylesheet" href="styles/small.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
+    <link type="text/css" rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=Vollkorn+SC&display=swap" rel="stylesheet">
+    <link rel="icon" href="faviconlogo.ico">
+</head>
+<body>
+    <header>
+        <a class="logo-link" href="index.html"><img class="logo" src="images/elklogo.png" alt="Site Logo"></a>
+        <h1>Hyrum City</h1>
+        <h2>Chamber of Commerce</h2>
+        <nav>
+            <a class="socialMedia" href="https://www.facebook.com/"><img src="images/Facebook.png" alt="facebook logo"></a>
+            <a class="socialMedia" href="https://www.instagram.com"><img src="images/Instagram.png" alt="instagram logo"></a>
+            <a class="socialMedia" href="https://linkedin.com"><img src="images/LinkedIn.png" alt="linked in logo"></a>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="currentDate">
+            <aside></aside>
+        </div>
+    </header>
+    <main>
+       <h3 class="contact-h3">Contact the Chamber</h3>
+       <div class="contact-box">
+            <hr class="display">
+            <div class="contact-info" id="box1">
+                <h4>Hyrum City Chamber of Commerce</h4>
+                <p>000 South Center</p>
+                <p>Hyrum, UT 84319</p>
+                <br>
+                <p>Visit Us:</p>
+                <p>Monday - Friday: 9:00am to 3:30pm</p>
+                <br>
+                <p>Phone:</p>
+                <p>(435) 245-0000</p>
+                <br>
+                <p>Email:</p>
+                <p>info@hyrumcitycc.org</p>
+            </div>
+            <hr class="non-display">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95429.64514432549!2d-111.91080656424114!3d41.6303181431006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87537f8ccf358bc7%3A0xf962976d6f1863f4!2sHyrum%2C%20UT!5e0!3m2!1sen!2sus!4v1678481038618!5m2!1sen!2sus" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <hr class="non-display">
+            <div class="contact-info" id="box2">
+                <h4>Points of Contact</h4>
+                <p>Membership Info:</p>
+                <p>join@hyrumcitycc.org</p>
+                <br>
+                <p>Sponsorship Opportunities:</p>
+                <p>sponsor@hyrumcitycc.org</p>
+                <br>
+                <p>Media Inquiries:</p>
+                <p>media@hyrumcitycc.org</p>
+            </div>
+            <hr class="display">
+        </div>
+        <form class="contact-form">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">Name* <input type="text" name="name" required></label>
+                <label class="top">Organization <input type="text" name="org"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Cell Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Contact Preference<select name="level">
+                    <option value="">Please Select</option>
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                </select></label>
+                <label class="top">Comments/Questions <textarea name="comments" rows="4"></textarea></label>
+            </fieldset>
+            <input type="submit" value="Contact the Chamber" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <div class="gridFooter">
+            <img class="logo" src="images/elklogo.png" alt="Site Logo">
+            <div class="address">
+                <h2>Hyrum City Chamber of Commerce</h2>
+                <p>000 South Center</p>
+                <p>Hyrum, UT 84319</p>
+            </div>
+            <div class="contact">
+                <p>info@hyrumcitycc.org</p>
+                <p>(435) 245-0000</p>
+                <a href="https://goo.gl/maps/WR9e53YGjRWT465g6"><img class="map" src="images/MapPin.png" alt="map pin"> Location Map</a>
+            </div>
+        </div>
+        <hr>
+        <div class="endFooter">
+            <div>
+                <span id="copyright"></span> Hyrum City Chamber 
+            </div>
+            <h3>Braquel Woodland</h3>
+            <p>WDD 230 Project</p>
+        </div>
+        <div id="lastUpdated">
+            Last Updated: <span id='lastModified'></span>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

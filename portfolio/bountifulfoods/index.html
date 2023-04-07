@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods Home Page</title>
+    <meta name="author" content="Braquel Woodland">
+    <meta name="description" content="Home page will contain images of fruit and produce and specialty fruit drinks. It will be dynamic, contain summary information, social media links, weather information, and a call to action for the user to create their own specialty drink.">
+    <link type="text/css" rel="stylesheet" href="styles/normalize.css">
+    <link type="text/css" rel="stylesheet" href="styles/small.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
+    <link type="text/css" rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=Vollkorn+SC&display=swap" rel="stylesheet">
+    <link rel="icon" href="faviconlogo.ico">
+</head>
+<body>
+    <header>
+        <a class="logo-link" href="index.html"><img class="logo" src="images/logofruit.png" alt="Site Logo"></a>
+        <h1>Bountiful Foods</h1>
+        <h2>Organic, Locally Grown Food</h2>
+        <nav>
+            <a class="socialMedia" href="https://www.facebook.com/"><img src="images/Facebook.png" alt="facebook logo"></a>
+            <a class="socialMedia" href="https://www.instagram.com"><img src="images/Instagram.png" alt="instagram logo"></a>
+            <a class="socialMedia" href="https://linkedin.com"><img src="images/LinkedIn.png" alt="linked in logo"></a>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img class="main-img" src="images/placeholder.png" data-src="images/main-img.png" alt="We provide Healthy Food Options" loading="lazy">
+        <div class="products">
+            <div class="product">
+                <a href="fresh.html"><img src="images/avocado.png" alt="avocado">
+                <h3>Fresh Produce</h3></a>
+            </div>
+            <div class="product">
+                <a href="fresh.html"><img src="images/grapes.png" alt="grapes">
+                <h3>Fruit Drinks</h3></a>
+            </div>
+            <div class="product">
+                <a href="fresh.html"><img src="images/orange.png" alt="orange">
+                <h3>Produce Baskets</h3></a>
+            </div>
+            <div class="product">
+                <a href="fresh.html"><img src="images/apple.png" alt="apple">
+                <h3>Create Your Own</h3></a>
+            </div>
+        </div>
+        <div class="product-description">
+            <div class="description">
+                <p>Order the amount you want of each product to fit your individual needs</p>
+            </div>
+            <div class="description">
+                <p>Try one of our delicious fruit drinks infused with fresh fruits and veggies</p>
+            </div>
+            <div class="description">
+                <p>Our produce baskets are full of in-season produce at a discounted price</p>
+            </div>
+            <div class="description">
+                <p>Create a fruit drink that showcases your individual style & taste</p>
+            </div>
+        </div>
+        <img class="banner" src="images/placeholder.png" data-src="images/littlefruitbanner.png" alt="Fruit Banner" loading="lazy">
+        <div class="location">
+            <div id="area-info">
+                <h4>Southern Coast of California</h4>
+                <p>Extending from Ventura County to the Mexican Border, this region is known for its sandy beaches, surf-able waves, moderate climate, and large and diverse population. It is home to the motion picture, television, and music industries, along with several sports franchises and networks. People from all over the world frequently visit this area to experience all it has to offer.</p>
+            </div>
+            <div class="map" id="index-map">
+                <img src="images/placeholder.png" data-src="images/socalmap.jpg" alt="Southern California Map" loading="lazy">
+                <h4>Visit one of our Locations</h4>
+                <a href="https://goo.gl/maps/egxXdYXPZHcmXzeP8"><img class="pin" id="pin1" src="images/MapPin.png" alt="map pin"></a>
+                <a href="https://goo.gl/maps/QZEVZk6owyRSCrhHA"><img class="pin" id="pin2" src="images/MapPin.png" alt="map pin"></a>
+                <a href="https://goo.gl/maps/XZbZSfXt95aCkune8"><img class="pin" id="pin3" src="images/MapPin.png" alt="map pin"></a>
+                <a href="https://goo.gl/maps/24qRY3auQH4wunB16"><img class="pin" id="pin4" src="images/MapPin.png" alt="map pin"></a>
+                <a href="https://goo.gl/maps/wffefiagXvqMSWPM9"><img class="pin" id="pin5" src="images/MapPin.png" alt="map pin"></a>
+                <a href="https://goo.gl/maps/TozYYgxmYiPEHgDx5"><img class="pin" id="pin6" src="images/MapPin.png" alt="map pin"></a>
+                <a href="https://goo.gl/maps/6Tu4te3uGEnjfEic7"><img class="pin" id="pin7" src="images/MapPin.png" alt="map pin"></a>
+                <a href="https://goo.gl/maps/PzfntoFYATu8KNJx9"><img class="pin" id="pin8" src="images/MapPin.png" alt="map pin"></a>
+            </div>
+            <div id="weather">
+                <div class="weather">
+                    <div class="weatherFlex">
+                        <p>Weather</p>
+                        <h4>Carlsbad, CA</h4>
+                        <hr>
+                        <div class="weatherDisplay">
+                            <div id="currentTemp"><span id="temp"></span>° F</div>
+                        </div>
+                        <div class="weath"></div>
+                        <div class="humidity">Humidity: <span id="humidity"></span>%</div>
+                        <div class="forecast">
+                            <div id="day1" class="days">
+                                <p class="weathDay"><span id="date1"></span></p>
+                                <p><span id="temp1" class="dayTemp"></span>° F</p>
+                                <div id="dailyDesc1"></div>
+                            </div>
+                            <div id="day2" class="days">
+                                <p class="weathDay"><span id="date2"></span></p>
+                                <p><span id="temp2" class="dayTemp"></span>° F</p>
+                                <div id="dailyDesc2"></div>
+                            </div>
+                            <div id="day3" class="days">
+                                <p class="weathDay"><span id="date3"></span></p>
+                                <p><span id="temp3" class="dayTemp"></span>° F</p>
+                                <div id="dailyDesc3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="banner" src="images/placeholder.png" data-src="images/producebanner.png" alt="Produce Banner" loading="lazy">
+            <div id="contact-info">
+                <h4>Contact Us</h4>
+                <hr>
+                <div class="contact-info">
+                    <p>Main Office:</p>
+                    <p>2744 Carlsbad Blvd</p>
+                    <p>Carlsbad, CA 92008</p>
+                    <br>
+                    <p>Store Hours:</p>
+                    <p>Monday - Saturday: 7:00am to 4:00pm</p>
+                    <br>
+                    <p>Phone:</p>
+                    <p>(760) 232-0000</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a class="logo-footer" href="index.html"><img class="logo-footer" src="images/BFlogo.png" alt="Site Logo"></a>
+        <p id="openweather">Weather Data Provided By: <a href="https://openweathermap.org/">OpenWeatherMap.org</a></p>
+        <div class="endFooter">
+            <div>
+                <span id="copyright"></span> Bountiful Foods 
+            </div>
+            <h3>Braquel Woodland</h3>
+            <p>WDD 230 Project</p>
+        </div>
+        <div id="lastUpdated">
+            Last Updated: <span id='lastModified'></span>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/lazyload.js"></script>
+</body>
+</html>

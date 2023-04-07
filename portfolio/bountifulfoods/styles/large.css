@@ -1,0 +1,150 @@
+/* 64rem is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+    /* <----------Home----------> */
+    body {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    header {
+        display: grid;
+        grid-template-columns: 150px auto auto;
+    }
+    .logo {
+        width: 120px;
+    }
+    header h1 {
+        font-size: 40px;
+        display: flex;
+        align-self: center;
+        margin-bottom: -10px;
+    }
+    header h2 {
+        font-size: 20px;
+        align-self: center;
+        margin-top: -25px;
+    }
+    nav {
+        text-align: right;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul#primaryNav {
+        display: flex;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,0.2);
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.2);
+        padding: .5rem 1rem;
+        font-size: 20px;
+    }
+    .socialMedia {
+        padding-right: 10px;
+    }
+    .socialMedia img {
+        width: 35px;
+    }
+    .products {
+        display: flex;
+        width: 95%;
+        margin-bottom: 0;
+    }
+    .products h3 {
+        margin-left: 0;
+    }
+    .product {
+        width: 100%;
+    }
+    .product a {
+        margin: 3px;
+    }
+    .product-description {
+        display: flex;
+        width: 95%;
+        margin: 32px;
+        margin-top: -10px;
+        color: #e0710f;
+    }
+    .description {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .location {
+        grid-template-columns: 320px 1fr;
+    }
+    #area-info {
+        margin: 30px 70px;
+    }
+    .map {
+        grid-row: 1/4;
+    }
+    .map h4 {
+        top: 55%;
+        left: 10%;
+        font-size: 23px;
+    }
+    #contact-info {
+        grid-column: 2;
+        grid-row: 3;
+        margin-left: 30px;
+        margin-top: -10px;
+    }
+    
+
+/* <----------Fresh----------> */
+#fresh-header {
+    margin: 40px auto;
+}
+.fresh-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -60px;
+}
+.fresh-form {
+    margin-top: 80px;
+}
+form h3 {
+    font-size: 20px;
+}
+.order-message {
+    font-size: 18px;
+}
+
+
+/* <----------About Us----------> */
+    .historical {
+        padding: 20px 50px;
+    }
+    #mapaddresses {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #aboutus-map {
+        margin: auto;
+        justify-content: center;
+        grid-row: 1/4;
+    }
+    .addresses {
+        margin-left: 10px;
+        margin-top: 60px;
+        grid-row: 1/4;
+    }
+    .addresses p {
+        margin: 0 auto;
+        padding: 0;
+        font-size: 15px;
+        padding-bottom: 12px;
+    }
+    .aboutus-images {
+        display: block;
+        grid-column: 3;
+        margin-top: 20px;
+    }
+    .aboutus-images img {
+        max-width: 280px;
+        border: 2px solid #F68928;
+        border-radius: 10px;
+        margin: 5px;
+    }
+}

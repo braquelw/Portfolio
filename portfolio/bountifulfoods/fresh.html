@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods Fresh Page</title>
+    <meta name="author" content="Braquel Woodland">
+    <meta name="description" content="The fresh page will contain a form that allows the user to build their own specialty drink and information about all the products available with their descriptions.">
+    <link type="text/css" rel="stylesheet" href="styles/normalize.css">
+    <link type="text/css" rel="stylesheet" href="styles/small.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
+    <link type="text/css" rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=Vollkorn+SC&display=swap" rel="stylesheet">
+    <link rel="icon" href="faviconlogo.ico">
+</head>
+<body>
+    <header>
+        <a class="logo-link" href="index.html"><img class="logo" src="images/logofruit.png" alt="Site Logo"></a>
+        <h1>Bountiful Foods</h1>
+        <h2>Organic, Locally Grown Food</h2>
+        <nav>
+            <a class="socialMedia" href="https://www.facebook.com/"><img src="images/Facebook.png" alt="facebook logo"></a>
+            <a class="socialMedia" href="https://www.instagram.com"><img src="images/Instagram.png" alt="instagram logo"></a>
+            <a class="socialMedia" href="https://linkedin.com"><img src="images/LinkedIn.png" alt="linked in logo"></a>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img class="main-img" src="images/placeholder.png" data-src="images/juicebanner.png" alt="Juice Banner" loading="lazy">
+        <h3 id="fresh-header">Fresh, Locally Grown Produce and Fruit Drinks</h3>
+        <div class="fresh-grid">
+            <div id="product-options">
+                <div class="options">
+                    <img class="optionimg" src="images/freshproduce.png" alt="Produce Baskets">
+                    <h4>Fresh Produce</h4>
+                    <p>We provide only the best quality fruits and vegetables from local farmers so you can easily implement fresh food options into your daily diet and routine.</p>
+                </div>
+                <div class="options">
+                    <img class="optionimg" src="images/baskets.png" alt="Produce Baskets">
+                    <h4>Produce Baskets</h4>
+                    <p>Our baskets are made with a large assortment of fresh, in-season fruits and vegetables at a discounted price so you can enjoy healthy choices for less.</p>
+                </div>
+                <div class="options">
+                    <img class="optionimg" src="images/fruitjuice.png" alt="Produce Baskets">
+                    <h4>Fruit Drinks</h4>
+                    <p>Try one of our homemade fruit juices, or fruit infused water to get essential nutrients in a fun and easy way. Try one of our favorite combos, or create your own!</p>
+                </div>
+            </div>
+            <div class="fresh-form">
+                <form name="drinkForm" onsubmit="getNutriInfo(); return false" autocomplete="off">
+                    <h3>Create Your Own Fruit Drink</h3>
+                    <fieldset>
+                        <legend>Customer Information</legend>
+                        <label class="top">Name* <input type="text" id="name" required/></label>
+                        <label class="top">Email* <input type="email" id="email" placeholder="someone@gmail.com" required/></label>
+                        <label class="top">Phone* <input type="tel" id="phone" placeholder="1235551234" required/></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Build Your Drink</legend>
+                        <label class="top">Fruit Options* (choose up to 3)
+                            <select class="option1" id="fruit1" required>
+                                <option value="">Please Select</option>
+                            </select>
+                            <select class="option2" id="fruit2">
+                                <option value="">Please Select</option>
+                            </select>
+                            <select class="option3" id="fruit3">
+                                <option value="">Please Select</option>
+                            </select>
+                        </label>
+                        <div id="radio-buttons">
+                            <div class="radioBtn">
+                                <input name="radio" type="radio" value="Blended Fruit Juice" id="juice" checked><label for="juice">Blended Fruit Juice</label>
+                            </div>
+                            <div class="radioBtn">
+                                <input name="radio" type="radio" value="Fruit Infused Water" id="infused"><label for="infused">Fruit Infused Water</label>
+                            </div>
+                        </div>
+                        <label class="top">Special Instructions <textarea name="instructions" id="instructions" rows="4"></textarea></label>
+                    </fieldset>
+                    <button type="submit" id="submitBtn">Create Drink</button>
+                </form>
+                <p id="formOutput1"></p>
+                <p id="drinksCreated"><span id="totalDrinks" class="label"></span><span id="numDrinks"></span></p>
+            </div>
+        </div>
+        <p class="order-message">To order, call (760) 232-0000 or visit us at one of our various locations in southern CA!</p>
+        <img class="main-img" src="images/placeholder.png" data-src="images/fruitcupbanner.png" alt="Juice Banner" loading="lazy">
+    </main>
+    <footer>
+        <a class="logo-footer" href="index.html"><img class="logo-footer" src="images/BFlogo.png" alt="Site Logo"></a>
+        <div class="endFooter">
+            <div>
+                <span id="copyright"></span> Bountiful Foods 
+            </div>
+            <h3>Braquel Woodland</h3>
+            <p>WDD 230 Project</p>
+        </div>
+        <div id="lastUpdated">
+            Last Updated: <span id='lastModified'></span>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>

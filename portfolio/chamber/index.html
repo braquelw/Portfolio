@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyrum City Chamber of Commerce Home Page</title>
+    <meta name="author" content="Braquel Woodland">
+    <meta name="description" content="Home page will contain some attention grabbing information along with community information, weather, calls to action, and business spotlights.">
+    <link type="text/css" rel="stylesheet" href="styles/normalize.css">
+    <link type="text/css" rel="stylesheet" href="styles/small.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
+    <link type="text/css" rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=Vollkorn+SC&display=swap" rel="stylesheet">
+    <link rel="icon" href="faviconlogo.ico">
+</head>
+<body>
+    <header>
+        <a class="logo-link" href="index.html"><img class="logo" src="images/elklogo.png" alt="Site Logo"></a>
+        <h1>Hyrum City</h1>
+        <h2>Chamber of Commerce</h2>
+        <nav>
+            <a class="socialMedia" href="https://www.facebook.com/"><img src="images/Facebook.png" alt="facebook logo"></a>
+            <a class="socialMedia" href="https://www.instagram.com"><img src="images/Instagram.png" alt="instagram logo"></a>
+            <a class="socialMedia" href="https://linkedin.com"><img src="images/LinkedIn.png" alt="linked in logo"></a>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="currentDate">
+            <aside></aside>
+        </div>
+    </header>
+    <main>
+        <span id='banner'></span>
+        <div id="flex">
+            <div class="hero">
+                <img id="smallhero" src="images/HyrumHero.png" alt="Hyrum State Park">
+                <img id="largehero" src="images/HyrumHeroSquare.png" alt="Hyrum State Park">
+                <h3>Welcome to Hyrum City</h3>
+                <button class="joinbtn" onclick="window.location.href='join.html';">Join the Chamber</button>
+            </div>
+            <div class="join">
+                <button class="joinbtn" onclick="window.location.href='join.html';">Join Us!</button>
+                <p>Discover how to join the Hyrum City Chamber of Commerce and how it will benefit you!</p>
+            </div>
+            <div class="event">
+                <img id="elk" src="images/elk.png" alt="Hardware Elk">
+                <img id="elkwide" src="images/elkwide.png" alt="Hardware Elk">
+                <div class="textbox">
+                    <h3>Hardware Ranch<a href="https://goo.gl/maps/h95f8V2qeGcdyeaY9"><img class="map" src="images/MapPin.png" alt="map pin"></a></h3>
+                    <p>Visit Fri through Sun between 10am and 4:30pm to take a sleigh ride and see the Elk up close!</p>
+                    <a class="info" href="https://wildlife.utah.gov/hardware-visit.html">more info...</a>
+                </div>
+            </div>
+            <div class="weather">
+                <div class="weatherFlex">
+                    <h3>Weather</h3>
+                    <div class="weatherDisplay">
+                        <figure>
+                            <img src="" alt="" id="weather-icon">
+                        </figure>
+                        <div id="currentTemp"><span id="temp"></span>°F</div>
+                    </div>
+                    <div class="weath"></div>
+                    <hr>
+                    <p>Wind Speed: <span id="wspeed"></span> mph</p>
+                    <p>Wind Chill: <span id="wchill"></span></p>
+                </div>
+            </div>
+            <div class="news">
+                <h3>News Release</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos totam vel quaerat laboriosam aspernatur sapiente qui architecto laborum nihil perspiciatis aut natus voluptate cumque saepe, iusto voluptatum ipsum minus soluta dolorum hic aliquid! Placeat tempora facilis aliquid, ab vero similique aperiam maxime ullam assumenda optio.</p>
+            </div>
+            <div class="spotlight">
+                <article class="grid">
+                    <section class="hiCard"></section>
+                </article>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="gridFooter">
+            <img class="logo" src="images/elklogo.png" alt="Site Logo">
+            <div class="address">
+                <h2>Hyrum City Chamber of Commerce</h2>
+                <p>000 South Center</p>
+                <p>Hyrum, UT 84319</p>
+            </div>
+            <div class="contact">
+                <p>info@hyrumcitycc.org</p>
+                <p>(435) 245-0000</p>
+                <a href="https://goo.gl/maps/WR9e53YGjRWT465g6"><img class="map" src="images/MapPin.png" alt="map pin"> Location Map</a>
+            </div>
+        </div>
+        <hr>
+        <div class="endFooter">
+            <div>
+                <span id="copyright"></span> Hyrum City Chamber 
+            </div>
+            <h3>Braquel Woodland</h3>
+            <p>WDD 230 Project</p>
+        </div>
+        <div id="lastUpdated">
+            Last Updated: <span id='lastModified'></span>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/spotlight.js"></script>
+</body>
+</html>

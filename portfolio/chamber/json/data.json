@@ -1,0 +1,76 @@
+{
+    "businessDirectory": [
+        {
+            "name": "Blacksmith Fork Assisted Living",
+            "address": "680 East Main Street",
+            "phone": "(435) 994-3000",
+            "website": "https://blacksmithforkassistedliving.com/",
+            "imageurl": "https://blacksmithforkassistedliving.com/wp-content/uploads/2022/10/Blacksmith-Fork-Assisted-Living-primary-01.jpg",
+            "level": "gold"
+        },      
+        {
+            "name": "America First Credit Union",
+            "address": "780 East Main Street",
+            "phone": "(800) 999-3961",
+            "website": "https://www.americafirst.com/",
+            "imageurl": "https://upload.wikimedia.org/wikipedia/en/d/d9/America1st.png",
+            "level": "gold"
+        },
+        {
+            "name": "Northern Glass Pros",
+            "address": "10 East Main Street",
+            "phone": "(435) 535-6162",
+            "website": "https://www.northernglasspros.com/",
+            "imageurl": "https://uploads-ssl.webflow.com/6266bce8be4e6324c28a54d6/6266c8a266bcd6c7dbfbefe9_glass_pros.PNG",
+            "level": "silver"
+        },
+        {
+            "name": "Guymon Orthodontics",
+            "address": "26 West Main Street, Suite 4D",
+            "phone": "(435) 752-5991",
+            "website": "https://guymonortho.com/",
+            "imageurl": "https://guymonortho.com/wp-content/themes/easel-v5/img/guymon-logo.svg",
+            "level": "gold"
+        },
+        {
+            "name": "Domino's Pizza",
+            "address": "10 West Main Street",
+            "phone": "(435) 245-7777",
+            "website": "https://pizza.dominos.com/utah/hyrum/",
+            "imageurl": "https://www.pngkey.com/png/full/234-2349823_logo-dominos-pizza-png.png",
+            "level": "silver"
+        },
+        {
+            "name": "Hyrum Self Storage",
+            "address": "206 South 1720 East",
+            "phone": "(435) 535-1527",
+            "website": "https://www.hyrumselfstorage.com/",
+            "imageurl": "https://i.pinimg.com/736x/45/a2/90/45a290228c91f1596ca381569310dfc0.jpg",
+            "level": "bronze"
+        }, 
+        {
+            "name": "McDonald's",
+            "address": "25 South 800 East",
+            "phone": "(435) 245-0635",
+            "website": "https://i.pinimg.com/originals/7f/80/a2/7f80a2b86250a20d767aa04d9bb0b5bf.png",
+            "imageurl": "https://live.staticflickr.com/7233/6867643986_766124d9fa_c.jpg",
+            "level": "bronze"
+        },
+        {
+            "name": "Harrington & Company",
+            "address": "52 East Main Street",
+            "phone": "(435) 245-4554",
+            "website": "https://harringtonco.com/",
+            "imageurl": "https://harringtonco.com/wp-content/uploads/2017/06/HC-banner-logo-optimized.jpg",
+            "level": "bronze"
+        },
+        {
+            "name": "The Family Place Utah",
+            "address": "10 North 600 East",
+            "phone": "(435) 752-8880",
+            "website": "https://thefamilyplaceutah.org/",
+            "imageurl": "https://thefamilyplaceutah.org/wp-content/uploads/2022/01/Logo-Horizontal-Grey-100-1280x264.jpg",
+            "level": "np"
+        }
+    ]
+}

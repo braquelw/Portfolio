@@ -13,11 +13,8 @@ body {
   nav {
     background-color:#fec492;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
   }
   nav a {
     color: #030328;
@@ -46,15 +43,18 @@ body {
     color: orangered;
   }
   footer {
-    padding: 10px;
-    padding-right: 0;
-    padding-left: 0;
+    padding: 20px 0;
     font-family: dosis;
     font-size: 15px;
     color: #fec492;
     background-color: #030328;
-    text-align: left;
-    padding-left: 50px;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 1028px) {
+    nav {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
 

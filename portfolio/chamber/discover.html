@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyrum City Chamber of Commerce Discover Page</title>
+    <meta name="author" content="Braquel Woodland">
+    <meta name="description" content="Home page will contain some attention grabbing information along with community information, weather, calls to action, and business spotlights.">
+    <link type="text/css" rel="stylesheet" href="styles/normalize.css">
+    <link type="text/css" rel="stylesheet" href="styles/small.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
+    <link type="text/css" rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=Vollkorn+SC&display=swap" rel="stylesheet">
+    <link rel="icon" href="faviconlogo.ico">
+</head>
+<body>
+    <header>
+        <a class="logo-link" href="index.html"><img class="logo" src="images/elklogo.png" alt="Site Logo"></a>
+        <h1>Hyrum City</h1>
+        <h2>Chamber of Commerce</h2>
+        <nav>
+            <a class="socialMedia" href="https://www.facebook.com/"><img src="images/Facebook.png" alt="facebook logo"></a>
+            <a class="socialMedia" href="https://www.instagram.com"><img src="images/Instagram.png" alt="instagram logo"></a>
+            <a class="socialMedia" href="https://linkedin.com"><img src="images/LinkedIn.png" alt="linked in logo"></a>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="currentDate">
+            <aside></aside>
+        </div>
+    </header>
+    <main id="discovermain">
+        <section class="discoverbody">
+            <section class="text">
+                <h3>Discover Hyrum City!</h3>
+                <p>Hyrum City is located in Cache County Utah, and was settled by Pioneers from the Church of Jesus Christ in 1860. It was named for the brother of Joseph Smith, Hyrum. It is a mostly rural community surrounded by farms and countryside, and the perfect mix of quiet neighborhoods and urban convenience.</p>
+                <p>Employment Opportunities include JBS Swift, West Point Dairy, Cache County School District, Utah State University, or in any one of the city's small businesses or nearby Logan.</p>
+                <p>There is ample land zoned for commercial or industrial uses. The Blacksmith Fork Industrial Park is home to a number of businesses, including Mountain Fiber Insulation and Recycling, Timber Wolf Cabinets, Royal Dog Boarding, Hyrum Self Storage, Artistic Metal Works, and Smitt's Used Cars and Mechanic. There are also many new subdivisions and a lot of residential growth on the East Side.</p>
+                <p>Hyrum City offers many recreational opportunities through city park facilities, Blacksmith Fork Canyon, Hardware Ranch elk preserve, and Hyrum State Park. There are plenty of activities for everyone from fishing and water sports to league sports and camping.</p>
+                <p>Some of the city's public buildings include the Elite Hall - one of the few remaining spring-loaded dance floors, the Civic Center with a multi-purpose room, and the Rodeo Arena. There is also a Senior Citizen Center that provides weekday activities, a Library that hosts educational experiences, and several medical services.</p>
+                <p>There are four schools located in Hyrum: Lincoln Elementary, Canyon Elementary, South Cache Middle School, and Mountain Crest High School. These schools area all part of Cache County School District that hosts numerous schools and provides plenty of opportunities for kids to learn and excel.</p>
+                <p>Hyrum City is widely known for its annual 4th of July celebration that features the Freedom Run, a parade, fireworks, and a rodeo! This Star Spangled Week provides old-fashioned fun and entertainment for people of all ages.</p>
+                <p>Current Population: 9,887</p>
+                <p>65th Largest City in Utah</p>
+                <p>Average Household Income: $78,025</p>
+                <p>Poverty Rate: 10.58%</p>
+                <p>Median Age: 29.1 years</p>
+                <p>Average Family Size: 3.73</p>
+            </section>
+            <section class="images">
+                <figure>
+                    <img src="images/placeholder2.png" data-src="images/CityOffices.png" alt="Hyrum City Offices" loading="lazy"><figcaption>Hyrum City Offices</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder2.png" data-src="images/Stangs.png" alt="Mountain Crest Mustangs" loading="lazy"><figcaption>Mountain Crest High School</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder2.png" data-src="images/Playground.png" alt="Hyrum City Park" loading="lazy"><figcaption>City Park</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder2.png" data-src="images/CanyonElementary.png" alt="Canyon Elementary" loading="lazy"><figcaption>Canyon Elementary</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder2.png" data-src="images/StatePark.png" alt="Hyrum State Park" loading="lazy"><figcaption>Hyrum State Park</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder2.png" data-src="images/HardwareRanch.png" alt="Hardware Ranch" loading="lazy"><figcaption>Hardware Ranch</figcaption>
+                </figure>
+            </section>
+        </section>
+        <p><span class="label">Visits to this Page: </span><span id="visits"></span></p>
+    </main>
+    <footer>
+        <div class="gridFooter">
+            <img class="logo" src="images/elklogo.png" alt="Site Logo">
+            <div class="address">
+                <h2>Hyrum City Chamber of Commerce</h2>
+                <p>000 South Center</p>
+                <p>Hyrum, UT 84319</p>
+            </div>
+            <div class="contact">
+                <p>info@hyrumcitycc.org</p>
+                <p>(435) 245-0000</p>
+                <a href="https://goo.gl/maps/WR9e53YGjRWT465g6"><img class="map" src="images/MapPin.png" alt="map pin"> Location Map</a>
+            </div>
+        </div>
+        <hr>
+        <div class="endFooter">
+            <div>
+                <span id="copyright"></span> Hyrum City Chamber 
+            </div>
+            <h3>Braquel Woodland</h3>
+            <p>WDD 230 Project</p>
+        </div>
+        <div id="lastUpdated">
+            Last Updated: <span id='lastModified'></span>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/lazyload.js"></script>
+</body>
+</html>
